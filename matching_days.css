@@ -16,6 +16,7 @@ ul {
 }
 #navigationBar{
 position: fixed;
+padding-left: 100px;
 }
 li {
     float: left;
@@ -31,4 +32,9 @@ li a {
     font-size: 2em;
     -webkit-transform: rotate(7deg);
     transform: rotate(7deg);
+}
+#form {
+font-size: 1.5em;
+display: inline;
+font-weight: bolder;
 }

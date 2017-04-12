@@ -1,27 +1,44 @@
 <!DOCTYPE html>
-<html>
+  <html>
   <head>
     <meta charset="utf-8">
-    <title>Matching Days</title>
+  <title>Matching Days</title>
     <link rel="stylesheet" href="matching_days.css">
   </head>
   <body>
-<div id="heading">
-  <p align="center">Matching Days</p>
-</div>
-<div id="main">
-  <div id="navigationBar">
- <ul>
-  <li><a class="active" href="#monday">Monday</a></li>
-  <li><a href="#tuesday">Tuesday</a></li>
-  <li><a href="#wednesday">Wednesday</a></li>
-  <li><a href="#thursday">Thursday</a></li>
-  <li><a href="#friday">Friday</a></li>
-  <li><a href="#saturday">Saturday</a></li>
-  <li><a href="#sunday">Sunday</a></li>
-</ul>
-
-  </div>
-</div>
-  </body>
-</html>
+   <div id="heading">
+     <p align="center">!!Matching Days!!</p>
+   </div>
+   <div id="main">
+      <div id="navigationBar">
+         <ul>
+           <li class="day">Sunday</li>
+          <li class="day">Monday</li>
+          <li class="day">Tuesday</li>
+          <li class="day">Wednesday</li>
+          <li class="day">Thursday</li>
+          <li class="day">Friday</li>
+          <li class="day">Saturday</li>
+        </ul>
+     </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+   <div id="dates" align="center">
+      <form id="form">
+          First date :
+          <input type="date" name="date1" id="date1">
+           <br>
+            <br>
+        Second date :
+          <input type="date" name="date2" id="date2">
+          <!-- <input type="submit"> -->
+          <button type="button" name="button" onclick="checkDay()"></button>
+        </form>
+        </div>
+        </div>
+        <script type="text/javascript" src="matching_days.js"></script>
+          </body>
+        </html>
