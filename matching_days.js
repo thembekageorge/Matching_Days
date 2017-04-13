@@ -1,10 +1,15 @@
 var day1;
 var day2;
+var date1 = document.getElementById('date1').value;
+var date2 = document.getElementById('date2').value;
+
+// date1.addEventListener('click',checkDay);
+// date2.addEventListener('click',checkDay);
 
 function checkDay(){
 
- var date1 = document.getElementById('date1').value;
- var date2 = document.getElementById('date2').value;
+ // var date1 = document.getElementById('date1').value;
+ // var date2 = document.getElementById('date2').value;
 
  var formattedDate1 = new Date (date1);
  var formattedDate2 = new Date (date2);
@@ -16,4 +21,7 @@ function checkDay(){
  if (dayOfDate1 == 0 || dayOfDate2 == 0){
    window.alert("it kinda works");
  }
+ date1.addEventListener('click',checkDay);
+date2.addEventListener('click',checkDay);
+
 }
