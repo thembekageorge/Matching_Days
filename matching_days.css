@@ -11,7 +11,7 @@ font-size: 3em;
     padding-left: 0;
     padding-right: 0;
     overflow: hidden;
-    background-color: #333;
+    /*background-color: #333;*/
     position: fixed;
 }
 #navigationBar{
@@ -34,4 +34,13 @@ li {
 font-size: 1.5em;
 display: inline;
 font-weight: bolder;
+}
+.green {
+  background-color: green;
+}
+.brown {
+  background-color: brown;
+}
+.yellow{
+  background-color: yellow;
 }
