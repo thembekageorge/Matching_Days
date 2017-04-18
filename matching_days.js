@@ -29,14 +29,14 @@ function checkDay(){
 		}
 
 		if(dayOfDate1 !== dayOfDate2 && dayOfDate1 !== undefined){
-			weekday[dayOfDate1].classList.add('yellow');
+			weekday[dayOfDate1].classList.add('blue');
 
 }
 		if(dayOfDate1 !== dayOfDate2 && dayOfDate2 !== undefined){
-			weekday[dayOfDate2].classList.add('brown');
+			weekday[dayOfDate2].classList.add('red');
 		}
     weekday[i].classList.remove('green');
-      weekday[i].classList.remove('yellow');
-        weekday[i].classList.remove('brown');
+      weekday[i].classList.remove('blue');
+        weekday[i].classList.remove('red');
         }
     }
