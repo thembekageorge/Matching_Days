@@ -12,12 +12,7 @@ var dayOfDate1, dayOfDate2;
 
 function checkDay(){
 'use strict'
-// date1.classList.remove('gre');
-// date1.classList.remove("yellow");
-// date1.classList.remove("brown");
-// date2.classList.remove("green");
-// date2.classList.remove("yellow");
-// date2.classList.remove("brown");
+
     for (var i = 0; i < weekday.length; i++) {
 
       if(date1.value !==""){
